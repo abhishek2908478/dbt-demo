@@ -1,0 +1,23 @@
+version: 2
+
+
+groups:
+  - name: customer_success
+    owner:
+      name: Customer Success Team
+      email: cx@jaffle.shop
+
+
+sources:
+  - name: business
+    database: polarsled_blue  
+    schema: demo  
+    tables:
+      - name: organization_source
+
+  - name: business
+    database: polarsled_blue  
+    schema: demo  
+    tables:
+      - name: employee_source    
+      
